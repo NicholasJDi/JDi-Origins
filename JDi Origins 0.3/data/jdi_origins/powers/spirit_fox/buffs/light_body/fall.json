@@ -1,0 +1,12 @@
+{
+    "name": "fall",
+    "hidden": true,
+    "type": "origins:prevent_death",
+    "damage_condition": {
+        "type": "origins:from_falling"
+    },
+    "entity_action": {
+        "type": "origins:exhaust",
+        "amount": 5
+    }
+}
