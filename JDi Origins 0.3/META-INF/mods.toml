@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[20,)"
+license="MIT License"
+logoFile="pack.png"
+logoBlur=false
+
+[[mods]]
+modId="jdi_origins"
+displayName="JDi Origins"
+version="0.3"
+description='''
+A Few Origins Based Off Of A Few Characters That I Have Made...
+'''
+[[dependencies.jdi_origins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.0,1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jdi_origins]]
+    modId="origins"
+    mandatory=true
+    versionRange="[0.1.0,)"
+    ordering="NONE"
+    side="BOTH"
