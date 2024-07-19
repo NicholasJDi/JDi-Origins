@@ -1,0 +1,19 @@
+{
+    "name": "Lunar Healing",
+    "description": "Because You Were Born Under The Moon, You Can Only Heal During The Night",
+    "loading_priority": 9,
+    "type": "origins:multiple",
+    "heal": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 255
+        }
+    },
+    "healing": {
+        "condition": {
+            "type": "origins:daytime"
+        },
+        "type": "origins:disable_regen"
+    }
+}

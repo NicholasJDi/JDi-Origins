@@ -1,0 +1,10 @@
+{
+    "name": "Silver Skin",
+    "description": "As Being Stuck Between Relms Your Skin Is Very Slightly Tinted Silver",
+    "loading_priority": 2,
+    "type": "origins:model_color",
+    "red": 0.8,
+    "green": 0.9,
+    "blue": 1,
+    "alpha": 1
+}
