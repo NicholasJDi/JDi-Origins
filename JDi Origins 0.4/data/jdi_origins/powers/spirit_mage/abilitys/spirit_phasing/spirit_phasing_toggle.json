@@ -1,0 +1,21 @@
+{
+    "name": "Spirit Phasing",
+    "description": "You Can Control The Spirits To Lower Your Body's Density",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Toggle With Primary Ability Key",
+            "sprite": "origins:textures/gui/badge/toggle.png"
+        },
+        {
+            "type": "origins:tooltip",
+            "text": "You Can Phase Through Walls At Will",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 1,
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "primary",
+    "retain_state": false
+}
