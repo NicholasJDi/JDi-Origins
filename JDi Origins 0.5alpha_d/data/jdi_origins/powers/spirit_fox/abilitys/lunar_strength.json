@@ -1,0 +1,21 @@
+{
+    "name": "Lunar Strength",
+    "description": "Because You Were Born Under The Moon, During The Night You Can Hit Harder Using The Moon's Power.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Hit 2x As Hard During The Night",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 8,
+    "condition": {
+        "inverted": true,
+        "type": "origins:daytime"
+    },
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 2
+    }
+}

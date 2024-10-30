@@ -1,0 +1,11 @@
+{
+    "parent": "jdi_origins:origin/root",
+    "rewards": {
+        "function": "jdi_origins:origin_selected"
+    },
+    "criteria": {
+        "key0": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

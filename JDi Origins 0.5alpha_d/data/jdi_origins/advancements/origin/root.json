@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "origins:orb_of_origin"
+        },
+        "title": "Origins",
+        "description": "Install JDi Origins Alongside The Origins Mod",
+        "frame": "task",
+        "background": "jdi_origins:textures/origins_background.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "key0": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

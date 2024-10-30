@@ -1,0 +1,11 @@
+{
+    "order": 1,
+    "origins": [
+        "jdi_origins:spirit_fox",
+        "jdi_origins:soul_mage",
+        "jdi_origins:light_fairy",
+        "jdi_origins:snow_wolf"
+    ],
+    "enabled": true,
+    "allow_random": true
+}

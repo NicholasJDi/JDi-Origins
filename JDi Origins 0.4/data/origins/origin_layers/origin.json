@@ -1,8 +1,0 @@
-{
-    "origins": [
-        "jdi_origins:spirit_fox",
-        "jdi_origins:spirit_mage"
-    ],
-    "enabled": true,
-    "allow_random": true
-}

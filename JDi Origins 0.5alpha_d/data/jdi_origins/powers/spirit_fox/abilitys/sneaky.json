@@ -1,0 +1,40 @@
+{
+    "name": "Sneaky",
+    "description": "When Sneaking You Phase More Into The Spiritual Realm",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Fall Slower And Become Harder To See (50% Transparent)",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 4,
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "type": "origins:model_color",
+        "red": 1,
+        "green": 1,
+        "blue": 1,
+        "alpha": 0.5
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slow_falling",
+                "duration": 2,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    }
+}

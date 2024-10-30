@@ -1,0 +1,27 @@
+{
+    "name": "Spirit Fox",
+    "description": "A Extremely Powerful Shy Fox Born Under The Moonlight Trapped Between The Material World And The Spirit Realm",
+    "powers": [
+        "jdi_origins:spirit_fox/looks/shy/shy",
+        "jdi_origins:spirit_fox/looks/silver_skin",
+        "jdi_origins:spirit_fox/debuffs/weak_body/weak_body",
+        "jdi_origins:spirit_fox/abilitys/sneaky",
+        "jdi_origins:spirit_fox/buffs/harder_to_hit",
+        "jdi_origins:spirit_fox/buffs/light_body/light_body",
+        "jdi_origins:spirit_fox/buffs/careful_footing",
+        "jdi_origins:spirit_fox/abilitys/spiritual_storage",
+        "jdi_origins:spirit_fox/abilitys/lunar_flight",
+        "jdi_origins:spirit_fox/abilitys/lunar_strength",
+        "jdi_origins:spirit_fox/debuffs/lunar_healing",
+        "jdi_origins:spirit_fox/looks/shy/trust",
+        "jdi_origins:spirit_fox/abilitys/berry_loving_fox",
+        "jdi_origins:spirit_fox/buffs/light_body/speed",
+        "jdi_origins:spirit_fox/buffs/light_body/fall",
+        "jdi_origins:spirit_fox/debuffs/weak_body/health",
+        "jdi_origins:spirit_fox/debuffs/weak_body/armor"
+    ],
+    "icon": {
+        "item": "minecraft:sea_lantern"
+    },
+    "impact": 2
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "title": "Soul Mage Origin",
+        "description": "Choose The Soul Mage Origin",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jdi_origins:origin/jdi_origins/jdi_origins_root",
+    "criteria": {
+        "key0": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "jdi_origins:soul_mage"
+            }
+        }
+    }
+}

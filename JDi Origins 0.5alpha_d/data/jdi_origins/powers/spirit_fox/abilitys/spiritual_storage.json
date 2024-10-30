@@ -1,0 +1,13 @@
+{
+    "name": "Spiritual Storage",
+    "description": "Due To Being Intertwined Between Worlds, You Can Store Things In the Spiritual Realm.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Have Keep Inventory",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 8,
+    "type": "origins:keep_inventory"
+}

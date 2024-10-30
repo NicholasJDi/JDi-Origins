@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": "Unsupported Origin",
+        "description": "Choose An Origin Not Supported By JDi Origins D: This Will Not Break Anything! (You Can Request A Origin To Be Added In The Discord)",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jdi_origins:origin/root",
+    "criteria": {
+        "key0": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

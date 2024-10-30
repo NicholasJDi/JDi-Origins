@@ -1,0 +1,14 @@
+{
+    "parent": "jdi_origins:origin/root",
+    "rewards": {
+        "function": "jdi_origins:origin_changed"
+    },
+    "criteria": {
+        "key0": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "origins:empty"
+            }
+        }
+    }
+}

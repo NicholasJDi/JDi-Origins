@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": "Enderian Origin",
+        "description": "Choose The Enderian Origin",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jdi_origins:origin/root",
+    "criteria": {
+        "key0": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "origins:enderian"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": "Blazeborn Origin",
+        "description": "Choose The Blazeborn Origin",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jdi_origins:origin/root",
+    "criteria": {
+        "key0": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "origins:blazeborn"
+            }
+        }
+    }
+}

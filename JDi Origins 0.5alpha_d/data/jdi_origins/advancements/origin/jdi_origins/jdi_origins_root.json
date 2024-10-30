@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:1049}"
+        },
+        "title": "JDi Origins",
+        "description": "The JDi Origins Origins, That's Kinda Confusing",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "jdi_origins:origin/root",
+    "criteria": {
+        "key0": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
