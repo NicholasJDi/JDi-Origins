@@ -1,5 +1,5 @@
 #run first load
-execute unless score #jdi_origins_dummy jdi_origins_structure_load_complete matches 1 run function jdi_origins:structure_load
+execute unless score #jdi_origins_dummy jdi_origins_structure_load_complete matches 1 in jdi_origins:soul_realm run function jdi_origins:structure_load
 
 #gamemode swap toggle trigger
 scoreboard players enable @a jdi_origins_dimension_gamemode_swap_toggle
