@@ -1,0 +1,14 @@
+{
+    "name": "Soul Realm Protection",
+    "description": "Prevents Damage In The Soul Realm Dimension",
+    "hidden": true,
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "jdi_origins:in_soul_realm"
+    },
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "max_total",
+        "value": 0
+    }
+}

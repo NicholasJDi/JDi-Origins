@@ -1,0 +1,34 @@
+{
+    "name": "Berry Loving Fox",
+    "description": "Due To Being A Fox You Love Berries, So Eating Them Heals You",
+    "loading_priority": 10,
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:sweet_berries"
+            }
+        },
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 1
+        },
+        "always_edible": true
+    },
+    "key1": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:glow_berries"
+            }
+        },
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 1
+        },
+        "always_edible": true
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Soul Sense",
+    "description": "You Can Sense The Soul Of Players.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "Players Glow For You While Sneaking",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "player"
+            },
+            {
+                "inverted": true,
+                "type": "origins:origin",
+                "origin": "jdi_origins:spirit_fox"
+            }
+        ]
+    },
+    "use_teams": true,
+    "red": 85,
+    "green": 255,
+    "blue": 255
+}

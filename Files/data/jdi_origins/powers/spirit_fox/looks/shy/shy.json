@@ -1,0 +1,27 @@
+{
+    "name": "Shy",
+    "description": "Due To Being Part Spirit You Are Not Easily Noticed, So You Were Alone Most Of Your Life, Due To This You Subconsciously Phase More Into The Spiritual Realm When Near Others",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Become Harder To See (50% Transparent)",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 1,
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "/execute if entity @e[scores={jdi_origins_spirit_fox_shy_selector = 1}, distance=0.01..10] run power grant @s jdi_origins:spirit_fox/looks/shy/transparent_skin"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/execute unless entity @e[scores={jdi_origins_spirit_fox_shy_selector = 1}, distance=0.01..10] run power remove @s jdi_origins:spirit_fox/looks/shy/transparent_skin"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Stellar Fairy (unfinished)",
+    "description": "A Fairy That Relies On The Powers Of The Cosmos.",
+    "icon": {
+        "item": "minecraft:pearlescent_froglight"
+    },
+    "unchoosable": true,
+    "impact": 2
+}

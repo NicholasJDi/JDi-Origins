@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "name": "JDi Origins",
+        "id": "jdi_origins",
+        "pack_format": 15,
+        "version": "0.5a",
+        "authors": [
+            "NicholasJDi"
+        ],
+        "description": "A Collection Of Origins (2 Currently) Based Off Of Characters Made By NicholasJDi.",
+        "license": "MIT License"
+    }
+}

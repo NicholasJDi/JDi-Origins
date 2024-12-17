@@ -1,0 +1,13 @@
+{
+    "name": "Soul Mage",
+    "description": "A Powerfull Mage That Has Harnessed The Power Of The Soul.",
+    "powers": [
+        "jdi_origins:soul_mage/abilitys/soul_enter",
+        "jdi_origins:soul_mage/looks/soul_sense",
+        "jdi_origins:soul_mage/buffs/soul_realm_protection"
+    ],
+    "icon": {
+        "item": "minecraft:dragon_breath"
+    },
+    "impact": 2
+}

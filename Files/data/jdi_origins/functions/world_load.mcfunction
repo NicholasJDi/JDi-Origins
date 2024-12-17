@@ -1,0 +1,14 @@
+#scoreboard adds
+scoreboard objectives add jdi_origins_structure_load_timer dummy
+scoreboard objectives add jdi_origins_dimension_gamemode_swap_active dummy
+scoreboard objectives add jdi_origins_player_id dummy
+scoreboard objectives add jdi_origins_soul_id dummy
+scoreboard objectives add jdi_origins_spirit_fox_shy_selector dummy
+scoreboard objectives add jdi_origins_soul_mage_soul_enter_toggle dummy
+scoreboard objectives add jdi_origins_soul_mage_soul_enter dummy
+scoreboard objectives add jdi_origins_dimension_gamemode_swap_toggle trigger
+scoreboard objectives add jdi_origins_compat_help trigger
+scoreboard objectives add jdi_origins_player_leave minecraft.custom:minecraft.leave_game
+
+#scoreboard sets
+scoreboard players set #jdi_origins_dummy jdi_origins_player_id 0

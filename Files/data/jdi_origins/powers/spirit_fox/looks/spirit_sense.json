@@ -1,0 +1,22 @@
+{
+    "name": "Spirit Sense",
+    "description": "Due To Being A Spirit, You Can Sense Others.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "All Entities Glow For You While Sneaking",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:exists"
+    },
+    "use_teams": false,
+    "red": 0.33333333333,
+    "green": 1,
+    "blue": 1
+}
