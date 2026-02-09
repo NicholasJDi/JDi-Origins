@@ -1,0 +1,15 @@
+{
+    "name": "Stellar Fairy (unfinished)",
+    "description": "A Fairy That Relies On The Powers Of The Cosmos.",
+    "powers": [
+        "jdi_origins:stellar_fairy/abilitys/fairy_flight/fairy_flight_toggle",
+        "jdi_origins:stellar_fairy/abilitys/fairy_flight/fairy_flight"
+    ],
+    "icon": {
+        "item": "minecraft:pearlescent_froglight"
+    },
+    "unchoosable": true,
+    "order": 1049,
+    "impact": 2,
+    "loading_priority": 4
+}

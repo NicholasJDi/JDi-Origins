@@ -1,0 +1,15 @@
+{
+    "name": "Soul Mage (unfinished)",
+    "description": "A Powerfull Mage That Has Harnessed The Power Of The Soul.",
+    "powers": [
+        "jdi_origins:soul_mage/abilitys/soul_enter",
+        "jdi_origins:soul_mage/abilitys/soul_sense",
+        "jdi_origins:soul_mage/buffs/soul_realm_protection"
+    ],
+    "icon": {
+        "item": "minecraft:dragon_breath"
+    },
+    "order": 1049,
+    "impact": 2,
+    "loading_priority": 2
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Glacial Step",
+    "description": "Water Walking But Ice",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": "<=",
+                "compare_to": 0.4
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    },
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": "secondary",
+    "retain_state": true
+}

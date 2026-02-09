@@ -1,0 +1,12 @@
+{
+    "name": "Fairy Flight",
+    "description": "You Can Fly!\n(15 blocks off the ground)",
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "jdi_origins:stellar_fairy_near_floor"
+    },
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "primary",
+    "retain_state": true
+}

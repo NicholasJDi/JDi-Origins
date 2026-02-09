@@ -1,0 +1,25 @@
+{
+    "name": "Careful Footing",
+    "description": "Your Careful Where You Step.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Take No Damage From Berry Bushes And Magma Blocks",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "sweetBerryBush"
+            },
+            {
+                "type": "origins:name",
+                "name": "hotFloor"
+            }
+        ]
+    }
+}

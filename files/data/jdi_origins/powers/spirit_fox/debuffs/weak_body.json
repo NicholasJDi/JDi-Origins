@@ -1,0 +1,46 @@
+{
+    "name": "Weak Body",
+    "description": "Due To Being Part Spirit, Your Weaker In The Material World",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "You Have 7 Hearts Of Health And Cannot Wear Armor",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "loading_priority": 3,
+    "type": "origins:multiple",
+    "armor": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "chest": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "legs": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "feet": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -6,
+            "name": "weak_body.health"
+        },
+        "update_health": true
+    }
+}

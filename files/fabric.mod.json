@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "environment": "*",
+    "depends": {
+        "fabric-api-base": "*",
+        "fabric": "*",
+        "minecraft": ">=1.20.0 <=1.20.1",
+        "origins": ">=1.10.0"
+    },
+    "name": "JDi Origins",
+    "id": "jdi_origins",
+    "version": "0.6_alpha_p",
+    "description": "A Collection Of Origins (3 Currently) Based Off Of Characters Made By NicholasJDi.",
+    "license": "MIT License",
+    "icon": "pack.png",
+    "authors": [
+        "NicholasJDi"
+    ]
+}

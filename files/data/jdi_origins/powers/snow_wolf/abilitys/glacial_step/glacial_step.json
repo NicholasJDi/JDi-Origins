@@ -1,0 +1,46 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "water_walk": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step_toggle"
+        },
+        "type": "origins:walk_on_fluid",
+        "fluid": "minecraft:water"
+    },
+    "water_slip": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step_toggle"
+        },
+        "type": "origins:modify_slipperiness",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0.97,
+            "name": "glacial_step"
+        }
+    },
+    "water_sound": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step_toggle"
+        },
+        "type": "origins:ignore_water"
+    },
+    "water_move": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step_toggle"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.035,
+            "name": "glacial_step"
+        },
+        "tick_rate": 20,
+        "update_health": true
+    }
+}

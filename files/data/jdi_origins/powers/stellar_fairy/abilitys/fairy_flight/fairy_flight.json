@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "update": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "/execute store scoreboard jdi_origins_stellar_fairy_floor_distance result 1 run clone ~ ~ ~ ~ ~-15 ~ ~ ~ ~ filtered air force"
+        }
+    }
+}

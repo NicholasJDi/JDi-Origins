@@ -1,0 +1,14 @@
+{
+    "name": "Snow Wolf (unfinished)",
+    "description": "A Shy Wolf That Can Manipulate Snow At Will",
+    "powers": [
+        "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step_toggle",
+        "jdi_origins:snow_wolf/abilitys/glacial_step/glacial_step"
+    ],
+    "icon": {
+        "item": "minecraft:snowball"
+    },
+    "order": 1049,
+    "impact": 2,
+    "loading_priority": 3
+}

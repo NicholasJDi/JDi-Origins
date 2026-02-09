@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:value_check",
+        "value": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "jdi_origins_stellar_fairy_floor_distance",
+            "scale": 1
+        },
+        "range": 16
+    }
+}
